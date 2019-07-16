@@ -1,0 +1,6 @@
+# ninja log v5
+2	1365	584963465	CMakeFiles/MagicBeautify.dir/src/main/jni/beautify/MagicBeautify.cpp.o	bb68cffb41f2bc56
+240	1684	584963465	CMakeFiles/MagicBeautify.dir/src/main/jni/bitmap/BitmapOperation.cpp.o	1af981bcd0f98be4
+88	1769	584963465	CMakeFiles/MagicBeautify.dir/src/main/jni/MagicJni.cpp.o	ff561d931d3ad481
+442	1792	584963465	CMakeFiles/MagicBeautify.dir/src/main/jni/bitmap/Conversion.cpp.o	df8445f714d26ce2
+1792	2342	584963466	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libMagicBeautify.so	b208cf2d93dbfc99

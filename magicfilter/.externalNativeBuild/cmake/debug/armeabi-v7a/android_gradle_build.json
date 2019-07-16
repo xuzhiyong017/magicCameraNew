@@ -1,0 +1,67 @@
+{
+  "buildFiles": [
+    "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "MagicBeautify-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target MagicBeautify",
+      "buildType": "debug",
+      "toolchain": "2786999994",
+      "abi": "armeabi-v7a",
+      "artifactName": "MagicBeautify",
+      "files": [
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\JniBitmap.h",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\Conversion.h",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\BitmapOperation.h",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\beautify\\MagicBeautify.h",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\MagicJni.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\beautify\\MagicBeautify.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\BitmapOperation.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        },
+        {
+          "src": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\Conversion.cpp",
+          "flags": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ",
+          "workingDirectory": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a"
+        }
+      ],
+      "output": "G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libMagicBeautify.so"
+    }
+  },
+  "toolchains": {
+    "2786999994": {
+      "cppCompilerExecutable": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

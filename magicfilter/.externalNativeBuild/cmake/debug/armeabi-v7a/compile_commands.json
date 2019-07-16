@@ -1,0 +1,25 @@
+[
+{
+  "directory": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi18 --gcc-toolchain=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMagicBeautify_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\MagicBeautify.dir\\src\\main\\jni\\MagicJni.cpp.o -c G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\MagicJni.cpp",
+  "file": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/MagicJni.cpp"
+},
+
+{
+  "directory": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi18 --gcc-toolchain=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMagicBeautify_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\MagicBeautify.dir\\src\\main\\jni\\beautify\\MagicBeautify.cpp.o -c G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\beautify\\MagicBeautify.cpp",
+  "file": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/beautify/MagicBeautify.cpp"
+},
+
+{
+  "directory": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi18 --gcc-toolchain=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMagicBeautify_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\MagicBeautify.dir\\src\\main\\jni\\bitmap\\BitmapOperation.cpp.o -c G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\BitmapOperation.cpp",
+  "file": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/bitmap/BitmapOperation.cpp"
+},
+
+{
+  "directory": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "C:\\Users\\sky\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi18 --gcc-toolchain=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/sky/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DMagicBeautify_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\MagicBeautify.dir\\src\\main\\jni\\bitmap\\Conversion.cpp.o -c G:\\thirdProject\\MagicCamera\\Project-AndroidStudio\\magicfilter\\src\\main\\jni\\bitmap\\Conversion.cpp",
+  "file": "G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/src/main/jni/bitmap/Conversion.cpp"
+}
+]

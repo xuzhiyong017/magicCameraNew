@@ -1,0 +1,3 @@
+G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/MagicBeautify.dir
+G:/thirdProject/MagicCamera/Project-AndroidStudio/magicfilter/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir

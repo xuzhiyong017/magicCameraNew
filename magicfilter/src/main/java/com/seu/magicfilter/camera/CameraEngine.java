@@ -85,8 +85,10 @@ public class CameraEngine {
             parameters.setFocusMode(Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
         }
         Size previewSize = CameraUtils.getLargePreviewSize(camera);
-        parameters.setPreviewSize(previewSize.width, previewSize.height);
         Size pictureSize = CameraUtils.getLargePictureSize(camera);
+        //设置预览尺寸
+        parameters.setPreviewSize(previewSize.width, previewSize.height);
+        //设置拍照尺寸
         parameters.setPictureSize(pictureSize.width, pictureSize.height);
         parameters.setRotation(90);
         camera.setParameters(parameters);

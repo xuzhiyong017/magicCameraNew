@@ -8,6 +8,7 @@ import android.hardware.Camera;
 import android.opengl.EGL14;
 import android.opengl.GLES20;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.SurfaceHolder;
 
 import com.seu.magicfilter.camera.CameraEngine;
@@ -172,7 +173,7 @@ public class MagicCameraView extends MagicBaseView {
             imageHeight = info.previewHeight;
         }
         cameraInputFilter.onInputSizeChanged(imageWidth, imageHeight);
-        adjustSize(info.orientation, info.isFront, true);
+        adjustSize(info.orientation, info.isFront, !info.isFront);
         if(surfaceTexture != null)
             CameraEngine.startPreview(surfaceTexture);
     }
@@ -203,9 +204,11 @@ public class MagicCameraView extends MagicBaseView {
             public void onPictureTaken(byte[] data, Camera camera) {
                 CameraEngine.stopPreview();
                 final Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+                //要利用OpenGl 绘图暂时停止摄像头预览，并且渲染操作要放到EGLContenxt环境下
                 queueEvent(new Runnable() {
                     @Override
                     public void run() {
+                        //把摄像头获取的bitmap图片经过Opengl滤镜处理后返回保存
                         final Bitmap photo = drawPhoto(bitmap,CameraEngine.getCameraInfo().isFront);
                         GLES20.glViewport(0, 0, surfaceWidth, surfaceHeight);
                         if (photo != null)
@@ -218,8 +221,10 @@ public class MagicCameraView extends MagicBaseView {
     }
 
     private Bitmap drawPhoto(Bitmap bitmap,boolean isRotated){
-        int width = bitmap.getWidth();
-        int height = bitmap.getHeight();
+        CameraInfo info = CameraEngine.getCameraInfo();
+        int width = info.previewHeight;
+        int height = info.previewWidth;
+        Log.d("drawPhoto","previewSize="+width+"x"+height+" pictureSize="+info.pictureWidth+"x"+info.pictureHeight);
         int[] mFrameBuffers = new int[1];
         int[] mFrameBufferTextures = new int[1];
         if(beautyFilter == null)

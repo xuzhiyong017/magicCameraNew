@@ -14,9 +14,14 @@ public class CameraUtils {
             List<Camera.Size> sizes = camera.getParameters().getSupportedPictureSizes();
             Camera.Size temp = sizes.get(0);
             for(int i = 1;i < sizes.size();i ++){
-                float scale = (float)(sizes.get(i).height) / sizes.get(i).width;
-                if(temp.width < sizes.get(i).width && scale < 0.6f && scale > 0.5f)
+//                float scale = (float)(sizes.get(i).height) / sizes.get(i).width;
+//                if(temp.width < sizes.get(i).width && scale < 0.6f && scale > 0.5f)
+//                    temp = sizes.get(i);
+
+                if((sizes.get(i).width / sizes.get(i).height) == 1){
                     temp = sizes.get(i);
+                    break;
+                }
             }
             return temp;
         }
@@ -28,8 +33,13 @@ public class CameraUtils {
             List<Camera.Size> sizes = camera.getParameters().getSupportedPreviewSizes();
             Camera.Size temp = sizes.get(0);
             for(int i = 1;i < sizes.size();i ++){
-                if(temp.width < sizes.get(i).width)
+//                if(temp.width < sizes.get(i).width)
+//                    temp = sizes.get(i);
+
+                if((sizes.get(i).width / sizes.get(i).height) == 1){
                     temp = sizes.get(i);
+                    break;
+                }
             }
             return temp;
         }

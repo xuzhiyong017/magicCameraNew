@@ -7,6 +7,7 @@ import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
 import android.hardware.Camera.Parameters;
 import android.hardware.Camera.Size;
+import android.util.Log;
 import android.view.SurfaceView;
 
 import com.seu.magicfilter.camera.utils.CameraUtils;
@@ -91,6 +92,7 @@ public class CameraEngine {
         //设置拍照尺寸
         parameters.setPictureSize(pictureSize.width, pictureSize.height);
         parameters.setRotation(90);
+        Log.d("CameraParameters","previewSize="+previewSize.width+"x"+previewSize.height+" picSize="+pictureSize.width+"x"+pictureSize.height);
         camera.setParameters(parameters);
     }
 
